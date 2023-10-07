@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    width: 100%;
+    background: url(img.jpg/sp.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family:sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0 ;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    font-size: 50px;
+}
+h3{
+    color: coral;
+}
+
+.navbar .logo{
+    width: 200px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -2%;
+    color: white;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    margin: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color:orangered;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font: 65px;
+    color: black;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: orangered;
+}
+
+.info a{
+     text-decoration:none ;
+     color: white;
+     background: black;
+     margin: 26px 0;
+     padding: 16px 18px;
+     border-radius: 10px;
+     display: inline-block;
+     transition: .4s ease;
+}
+
+.info a:hover{
+    background-color:skyblue;
+}
+
+.image{
+   
+    width: 40%;
+    height: 60%;
+    padding: 0%;
+    padding-right: -10px;
+    border-radius: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    margin-bottom: 50px;
+    border: 2px solid rgb(235, 238, 245);
+}
+
+.image img{
+    padding: -10px;
+    position: absolute;
+    height: 140%;
+    width: 100%;
+    left: 40%;
+    border-radius: 50px;
+    border: 10px;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .suraj{
+    bottom:55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icons i{
+    margin-left: 7%;
+    color: black;
+    margin-right: -60px;
+    font-size:40px;
+}
+
+i:hover{
+    color:rgb(0, 81, 255) ;
+}
+
+.ABOUT{
+    width: 100%;
+    background: url(img.jpg/bg1.avif);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    font-family: sans-serif;
+}
+
+section .about img{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 80px;
+    padding: 0px;
+    background-color: grey;
+    
+}
+
+.ABOUT{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    align-items:center;
+   
+   
+
+}
+
+.text-about {
+    font-family: sans-serif;
+    font-size: var(--h2-font);
+    font-weight: 800;
+    align-items: center;
+     text-align: center;
+    padding-bottom: 100px;
+    padding-right: 550px;
+    color: aliceblue;
+    margin-bottom: 7%;
+    margin-right: 3%;
+    padding-top: 50px;
+    
+}
+
+.text-about h2{
+    color: antiquewhite;
+}
+.text-about a{
+    text-decoration:none ;
+    color: white;
+    background:red;
+    margin: 26px 0;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 16px 18px;
+    border-radius: 10px;
+}
+
+.Works{
+    width: 100%;
+    background: url(img.jpg/BB.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.text-center{
+    text-align:center;
+
+}
+
+.text-center h2{
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom:10px ;
+    
+
+}
+.text-center h4{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.service-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    align-items:center;
+    gap: 2.2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.service-box{
+    padding: 30px 20px;
+    background-color:lightslategray;
+    border-radius: 0.8rem;
+    border: 1px solid transparent;
+    cursor:pointer;
+    transition: all ease .50s;
+}
+.Works i{
+    font-size: 50px;
+    color: darkmagenta ;
+    margin-bottom: 10px;
+
+}
+.service-box h3{
+    color: aqua;
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+}
+.button{
+    display: inline-block;
+    padding: 9px 24px;
+    background: violet;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid violet;
+    border-radius: 2rem;
+    transition: aall ease .50s;
+
+}
+.service-box:hover{
+    transform: translateY(-8px);
+    border: 1px solid blueviolet;
+}
